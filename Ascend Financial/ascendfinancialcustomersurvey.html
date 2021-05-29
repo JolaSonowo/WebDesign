@@ -1,0 +1,98 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <title>Ascend Financial Customer Survey</title>
+    <style>
+    #header{
+    border-bottom:2px solid black
+    }
+
+    body{
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:	#D3D3D3;
+
+    }
+    .form{
+      text-align: center;
+
+    }
+    </style>
+  </head>
+  <body>
+<p>
+  <div id="header">
+<img src="https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco/v1429006221/psrplmsdde5z2kmfpuk5.png" style="width:150px; height:100px" align="center"  bottom alt="logo">
+
+
+
+
+
+  <h1>Ascend Financial</h1>
+</div>
+
+
+
+    <h2 class="form">Customer Survey Form</h2>
+
+      We hope you have enjoyed your experience with us!
+      <br>
+      Please feel this form for us to improve our services.
+      </p>
+      <form action=ascendfinancialsubmittedform.html>
+        <fieldset>
+
+          <label>Firstname: <br> <input type="text" name="fname" required="required" /></label><br />
+          <label>Lastname: <br> <input type="text" name="lname" required="required"/></label><br>
+            <label>Email:<br> <input type="email" name="email" required="required"/><br></label>
+            <label>Telephone:<br> <input type="text" name="telephone" required="required"/><br></label>
+  <label>Date of Birth:<br> <input type="date" name="dob" required="required"/><br></label>
+        </fieldset>
+<br>
+
+        <label for="userexperience" >How satisfied were you with your experience today?<br>(1-lowest; 5-highest)
+<br>
+          <input type="radio" name="userexperience" value="1">1
+          <input type="radio" name="userexperience" value="2">2
+          <input type="radio" name="userexperience" value="3">3
+            <input type="radio" name="userexperience" value="4">4
+              <input type="radio" name="userexperience" value="5" checked="checked">5
+              </label>
+          <br><br>
+        <label for="valuablefeatures">Which 3 features are the most valuable to you?
+          <input type="checkbox" name="valuablefeatures" value="customresponses">Custom Responses
+            <input type="checkbox" name="valuablefeatures" value="easynavigation">Easy Navigation
+              <input type="checkbox" name="valuablefeatures" value="priceofservice">Price of Service
+                <input type="checkbox" name="valuablefeatures" value="websitecreativity">Website Creativity
+                  <input type="checkbox" name="valuablefeatures" value="websiteefficiency">Website Efficiency
+
+          </label>
+        <br><br>
+
+        <label for= "howeasyisitoforyoutonavigateourwebsite">How easy is it for you to navigate our website?
+          <select name="website"required="required">
+         <option value="extremely easy" selected="selected">Extremely easy</option>
+         <option value="somewhat easy">Very Easy</option>
+          <option value="easy">Easy</option>
+         <option value="notsoeasy" >Not so easy</option>
+          <option value= "noteasyatall">Not easy at all</option>
+         </select>
+        </label>
+<br><br>
+
+
+                <label for="information">Were you able to find the information you were looking for?
+
+                  <input type="radio" name="information" value="yes" checked="checked">Yes
+                  <input type="radio" name="information" value="no">No
+                  </label>
+<br><br>
+                  <label for="anyadditionalfeedback">Any additional feedback?
+                  <textarea name="comment" rows="4" cols="20"></textarea>
+                </label>
+<br><br>
+                <input type="submit" name="submit" value="SUBMIT">
+        </form>
+  </body>
+</html>
